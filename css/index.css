@@ -1,3 +1,227 @@
 body{
     margin: 0px;
 }
+a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url("https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    z-index: -1;
+}
+#plano_banner{
+    background-color: #FFF;
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: plano_banner 2s;
+    transition: all 0.5s;
+}
+@keyframes plano_banner{
+    0%{opacity: 0.1;}
+    50%{opacity: 0.7;}
+    100%{opacity: 0.5;}
+}
+.banner:hover #plano_banner{
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.banner h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 3% !important;
+    margin-left:10%;
+    width: 300px;
+    position: relative;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    animation: banner 1s;
+}
+#btn{
+    font-family: 'Open Sans', sans-serif;
+    border: solid 1px #3a3a3a;
+    padding: 15px;
+    margin-left: 10%;
+    z-index: 99;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+#btn:hover{
+    background-color: #3a3a3a;
+    color: #FFF;
+    transition: all 0.5s;
+}
+@keyframes banner{
+    0%{margin-left: -200px;}
+    100%{margin-left: 10%;}
+}
+
+/* ----- Tela 2 ----*/
+.post{
+    width: 80%;
+    margin-left: 10%;
+    height: 1100px;
+}
+.content_post{
+    width: 80%;;
+    margin-left: 10%;
+}
+.content_post h2{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+#post1{
+    margin-top: 100px;
+    cursor:default;
+}
+#fd1_img{
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    position: absolute;
+    transition: all 0.5s;
+}
+#post1 img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
+    margin-left: 30px;
+    transition: all 0.4s;
+    object-fit: cover;
+}
+.cards:hover #img_post{
+    width: 275px;
+    height: 275px;
+    margin-left: -20px;
+    margin-top: 20px;
+    transition: all 0.5s;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.cards:hover #fd1_img {
+    margin-left: -60px;
+    margin-top: 80px;
+    transition: all 0.5s;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+#post1 h1{
+    margin-left: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: orange;
+}
+.cards p{
+    margin-left: 30%;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+#post2{
+    margin-top: 150px;
+    cursor:default;
+}
+#post2 img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
+    margin-left: 30px;
+    transition: all 0.4s;
+    right: 10%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#post2 img{
+    border-radius: 50%!important;
+}
+#post2 p{
+    margin-left: 10% !important;
+    text-align: right;
+    font-style: italic;
+}
+#post2 h1{
+    margin-left: 55%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:green;
+}
+
+
+#fd3_img{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    transition: all 0.5s;
+}
+.cards:hover #fd3_img {
+    margin-left: -60px;
+    margin-top: 80px;
+    transition: all 0.5s;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+#post3{
+    margin-top: 150px;
+    cursor:default;
+}
+#post3 img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
+    margin-left: 30px;
+    transition: all 0.4s;
+    object-fit: cover;
+}
+#post3 p{
+    margin-left: 30% !important;
+    text-align: left;
+    font-style: italic;
+}
+#post3 h1{
+    margin-left: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
