@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    background-color: #f3f3f3;
+}
+
+
+#t3{
+    height: 750px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+#txt_t3 p{
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 5%;
+    color: #161616;
+    font-weight: bold;
+}
+#form{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#Divformulario{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    width: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#form input, #msg{
+    margin-bottom: 1%;
+    padding: 10px 0px 15px 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: Gotham-Book;
+    border: 1px solid #C9D3DD;
+    width: 300px;
+}
+
+#msg{
+     padding: 10px 0px 0px 10px !important;
+}
+#btn_enviar{
+    padding: 15px 50px 20px 50px !important;
+    background-color: #c42b2b;
+    color: #fff;
+    font-family: Gotham-Book;
+    cursor: pointer;
+    border-radius: 30px !important; 
+    font-size: 13px;
+}
+#btn_enviar:hover{
+    background-color: #2ABB49;
+}
+#msg_sucess{
+    font-family: Gotham-Book;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+    #txt_t3 p{
+        margin: 0; 
+        font-family: 'Open Sans', sans-serif;
+        font-size: 80px;
+        padding-top: 5%;
+        color: #161616;
+        font-weight: bold;
+    }
+    #form input, #msg{
+        margin-bottom: 1%;
+        padding: 10px 0px 15px 10px;
+        border-radius: 5px;
+        border-style: none;
+        font-family: Gotham-Book;
+        border: 1px solid #C9D3DD;
+        width: 600px;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+}

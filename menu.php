@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/sobre.css">
 </head>
 
 <nav class="menu">
@@ -9,10 +10,10 @@
             <h1>Construtora Galdino</h1>
         </div>
         <ul>
-            <li><a href="#">Início</a></li>
+            <li><a href="index.php">Início</a></li>
             <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contatos</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="contato.php">Contatos</a></li>
+            <li><a href="sobre.php">Sobre</a></li>
         </ul>
     </div>
 </nav>

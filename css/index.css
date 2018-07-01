@@ -202,7 +202,70 @@ a{
     margin-left: 30%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color:green;
+    color:red;
+}
+@media only screen and (max-width: 1500px) {
+    .content_post{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #post1 h1{
+        margin-left: 30%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: orange;
+    }
+    #post2 h1{
+        margin-left: 50%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color:green;
+    }
+    #post3 h3{
+        margin-left: 30%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: orange;
+    }
+    #post2 p{
+        margin-left: 3% !important;
+        text-align: right;
+        font-style: italic;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .content_post{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .cards h1{
+        margin-left: 40%!important;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: orange;
+    }
+    #post2 h1{
+        margin-left: 20%!important;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color:green;
+    }
+    #post2 p{
+        margin-left: 3% !important;
+        text-align: right;
+        font-style: italic;
+    }
+    .cards p{
+        width: 400px;
+        margin-left: 40%;
+    }
+    #post3 p{
+    margin-left: 40% !important;
+    text-align: left;
+    font-style: italic;
+}
 }
 
 
