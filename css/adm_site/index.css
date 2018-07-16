@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+}
+.content{
+    width: 100%;
+    display:flex;
+    justify-content: center;    
+}
+.cadastro{
+    margin-top: 5%;
+    display:flex;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    width: 800px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.cadastro h1{
+    font-family: 'Open Sans', sans-serif;
+}
+form{
+    display:block;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+form input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    text-align: center; 
+    outline: none;
+    background-color: #FFF;
+    transition: all 0.5s;
+}
+#cadastro{
+    cursor: pointer;
+}
+#cadastro:hover{
+    background-color: #b1b1b1;
+    transition: all 0.5s;
+}
+@media only screen and (max-width:1300px){
+    #nome, #texto, #cadastro, #data{
+        width: 700px;
+        height: 80px;
+        font-size: 40px;
+    }
+    #texto{
+        height: 500px!important;
+    }
+    p{
+        font-size: 30px;
+    }
+    #p_data{
+        margin-bottom: 0px;
+    }
+}
+
